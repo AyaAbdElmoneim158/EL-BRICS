@@ -7,25 +7,25 @@ environment:
   sdk: ">=3.2.6 <4.0.0"
 
 dependencies:
+  animated_expandable_fab: ^0.0.3
+  cupertino_icons: ^1.0.2
+  file_picker: ^4.0.0
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
+  lottie: ^3.1.0
   video_player: ^2.1.11
-  file_picker: ^4.0.0
 
 dev_dependencies:
+  flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
-
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/
   #   - images/a_dot_ham.jpeg
-
   # fonts:
   #   - family: Schyler
   #     fonts:
